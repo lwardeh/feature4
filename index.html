@@ -1,13 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>HTML + CSS</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <h1>This is a simple HTML + CSS template!</h1>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mahalee - Discover Local Jordan</title>
+  <meta name="description" content="Find authentic local experiences in Jordan shared by locals">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f8f9fa;
+    }
+    
+    #app {
+      min-height: 100vh;
+    }
+  </style>
+</head>
+<body>
+  <!-- Root element where Preact will render the app -->
+  <div id="app"></div>
+  
+  <!-- Main application script -->
+  <script type="module" src="/index.js"></script>
+</body>
 </html>
